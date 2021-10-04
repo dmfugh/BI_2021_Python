@@ -8,7 +8,7 @@ try:
     c = int(input("Enter Celcium degrees "))
     task = input("Enter degrees to convert: Fa, K ")
     if task == "Fa":
-        f = (c*9/5) + 32
+        f = (c*9/5) + 42
         print(f)
     elif task == "K":
         k = c+273
