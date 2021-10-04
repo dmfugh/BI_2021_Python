@@ -17,3 +17,4 @@ try:
         print("Wrong input")
 except ValueError:
     print("You have typed wrong data")
+# computing the temperature
