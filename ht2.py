@@ -4,17 +4,17 @@
 # In[22]:
 
 
-try: 
+try:
     c = int(input("Enter Celcium degrees "))
     task = input("Enter degrees to convert: Fa, K ")
     if task == "Fa":
         f = (c*9/5) + 32
-        print (f)
+        print(f)
     elif task == "K":
         k = c+273
         print(k)
-    else: 
+    else:
         print("Wrong input")
-except:
-    print ("You have typed wrong data")
+except ValueError:
+    print("You have typed wrong data")
 
